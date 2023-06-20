@@ -43,7 +43,7 @@ app.post('/api/notes', (req, res) => {
     const { title, text, id } = req.body;
 
     // if all the required properties are present
-    if (title && text) {
+    if (title && text && id) {
         // variable for the object we will save
         const newReview = {
             title,
