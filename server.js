@@ -9,7 +9,7 @@ const app = express();
 
 const notes = require('./db/db.json');
 
-// Helper method for generating unique ids
+// helper method for generating unique ids
 const uuid = require('./helpers/uuid');
 
 
@@ -101,7 +101,7 @@ app.delete('/api/notes/:id', (req, res) => {
     });
 
     // rewrites db.json and note list
-    fs.writeFileSync("./db/db.json", JSON.stringify(noteList));
+    fs.writeFileSync('./db/db.json', JSON.stringify(noteList));
     res.json(noteList);
 });
 
