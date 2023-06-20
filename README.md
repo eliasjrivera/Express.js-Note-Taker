@@ -30,12 +30,14 @@ Badges
 <br>
 Visuals
 <br>
-![](./gif/svglogomaker.gif)
+![](./gif/app.gif)
 <br>
 <br>
-Project Repo/Screen Recording
+Project Repo/Heroku App
 <br>
 [Elias Rivera GitHub Repo](https://github.com/eliasjrivera/Express.js-Note-Taker)
+<br>
+[Heroku Deployed App](https://thawing-ravine-08596-e7ba324e19b6.herokuapp.com/)
 <br>
 <br>
 Installation
