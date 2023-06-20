@@ -1,17 +1,1 @@
-[
-    {
-        "title": "Head to Sprouts",
-        "text": "To buy some kale, apples, and milk.",
-        "id": "8acf"
-    },
-    {
-        "title": "Homework Due",
-        "text": "Challenge 11 homework due on June 20 at 11:59 pm",
-        "id": "222c"
-    },
-    {
-        "title": "Clean House",
-        "text": "Clean before the weekend for upcoming party!",
-        "id": "24ab"
-    }
-]
+[{"title":"Head to Sprouts","text":"To buy some kale, apples, and milk.","id":"8acf"},{"title":"Homework Due","text":"Challenge 11 homework due on June 20 at 11:59 pm","id":"222c"}]

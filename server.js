@@ -43,7 +43,7 @@ app.post('/api/notes', (req, res) => {
     const { title, text, id } = req.body;
 
     // if all the required properties are present
-    if (title && text && id) {
+    if (title && text) {
         // variable for the object we will save
         const newReview = {
             title,
@@ -101,7 +101,7 @@ app.delete('/api/notes/:id', (req, res) => {
     });
 
     // rewrites db.json and note list
-    fs.writeFileSync('./db/db.json', JSON.stringify(noteList));
+    fs.writeFileSync("./db/db.json", JSON.stringify(noteList));
     res.json(noteList);
 });
 
